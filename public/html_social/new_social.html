@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Landing Page Đồ Uống</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('https://picsum.photos/1600/900?random=1');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        .cta-button {
+            padding: 15px 30px;
+            background-color: #ff6347;
+            color: white;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .cta-button:hover {
+            background-color: #e5533c;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+        .feature {
+            text-align: center;
+            width: 30%;
+        }
+        .feature img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .feature h3 {
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+        .feature p {
+            font-size: 1.2em;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <h1>Chào Mừng Đến Với Thế Giới Đồ Uống Tuyệt Vời</h1>
+        <p>Khám phá các loại đồ uống ngon tuyệt cho mọi dịp</p>
+        <a href="https://example.com/" id="social" class="cta-button">Khám Phá Ngay</a>
+    </section>
+
+    <section class="features" id="features">
+        <div class="feature">
+            <img src="https://picsum.photos/500/300?random=2" alt="Feature 1">
+            <h3>Đồ Uống Tươi Mát</h3>
+            <p>Thưởng thức các loại nước ép tươi ngon, giàu vitamin.</p>
+        </div>
+        <div class="feature">
+            <img src="https://picsum.photos/500/300?random=3" alt="Feature 2">
+            <h3>Cà Phê Hảo Hạng</h3>
+            <p>Chọn lựa các loại cà phê thơm ngon từ những hạt cà phê chất lượng cao.</p>
+        </div>
+        <div class="feature">
+            <img src="https://picsum.photos/500/300?random=4" alt="Feature 3">
+            <a href="#" id="social" class="cta-button"></a>
+            <h3>Trà Đặc Sản</h3>
+            <p>Thư giãn với những tách trà đặc sản, thanh mát và đầy hương vị.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Thế Giới Đồ Uống. Tất cả quyền lợi được bảo lưu.</p>
+    </footer>
+
+</body>
+</html>
