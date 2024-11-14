@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContentController;
+use App\Http\Controllers\GeneratorHTMLController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,3 +19,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/getContent', [ContentController::class, 'getContent']);
+
+Route::resource('social', GeneratorHTMLController::class);
